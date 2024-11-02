@@ -15,7 +15,7 @@ This representation shows that a polynomial of degree m is a sum of terms, where
 The task is to find the constant term i.e, ‘c’ of the polynomial with the given roots. However, the points are not provided directly but in a specific format.
 You need to read the input from the test cases provided in JSON format.
 Sample Test Case:
-{
+`{
     "keys": {
         "n": 4,
         "k": 3
@@ -37,15 +37,15 @@ Sample Test Case:
         "value": "213"
     }
 }
-​
+​`
 n: The number of roots provided in the given JSON
 k: The minimum number of roots required to solve for the coefficients of the polynomial
 k = m + 1, where m is the degree of the polynomial
 Root Format Example:
-"2": {
+`"2": {
     "base": "2",
     "value": "111"
-}
+}`
 ​
 Consider the above root as (x, y):
 x is the key of the object (in this case, x = 2)
@@ -75,7 +75,7 @@ Hint: Although you can't test your code against the test case in a testing envir
 Good luck!
 
 Find the second testcase here.
-{
+`{
 "keys": {
     "n": 10,
     "k": 7
@@ -120,4 +120,4 @@ Find the second testcase here.
     "base": "7",
     "value": "1101613130313526312514143"
   }
-}
+}`
